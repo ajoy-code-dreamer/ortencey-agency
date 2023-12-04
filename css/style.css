@@ -256,6 +256,9 @@ h1,h2,h3,h4,h5,h6,p{
 #about{
     padding: 150px 0 100px;
 }
+.about_wrapper{
+    padding-bottom: 120px;
+}
 #about .about_content h6{
     color:  #3661FC;
     font-family: var(--DmSans);
@@ -341,4 +344,68 @@ h1,h2,h3,h4,h5,h6,p{
     bottom: 90px;
     left: 0px;
     overflow: hidden;
+}
+
+/* =============about bottom part============== */
+.about_item{
+    width: 342px;
+    height: 408px;
+}
+.about_item:hover .about_item_icon{
+  background: linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
+  top: -20px;
+} 
+.about_item .about_item_icon{
+  width: 216px;
+  top: 10px;
+  left: 10px;
+  height: 180px;
+  background: #3661FC;
+  transition: all linear .2s;
+  border-radius: 34px;
+  -webkit-border-radius: 34px;
+  -moz-border-radius: 34px;
+  -ms-border-radius: 34px;
+  -o-border-radius: 34px;
+  -webkit-transition: all linear .2s;
+  -moz-transition: all linear .2s;
+  -ms-transition: all linear .2s;
+  -o-transition: all linear .2s;
+}
+.about_item .about_item_icon img{
+  position: absolute;
+  top: 30px;
+  left: 45px;
+}
+.about_itam_img{
+  top: 10px;
+  left: 10px;
+}
+.about_item_desc{
+  padding: 0 35px;
+}
+.about_item_desc h5{
+  color: #1A1A1A;
+  font-family: var(--Nunito);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: all linear .2s;
+  -webkit-transition: all linear .2s;
+  -moz-transition: all linear .2s;
+  -ms-transition: all linear .2s;
+  -o-transition: all linear .2s;
+}
+.about_item:hover .about_item_desc h5{
+  color: #3661FC;
+}
+.about_item_desc p{
+color:  #6B6161;
+font-family: var(--DmSans);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding: 12px 0 31px;
 }
