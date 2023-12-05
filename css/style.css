@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
-/* 
 
-font-family: 'Nunito', sans-serif; 
-*/
 :root {
     --DmSans: font-family: 'DM Sans', sans-serif;
     --Nunito: font-family: 'Nunito', sans-serif;
+    --gradient: linear-gradient(#FE651B, #FFAA52);
+    --transition: all 0.3s linear;
 }
 
 * {
@@ -35,6 +34,10 @@ h6,
 p {
     line-height: .8;
     margin: 0;
+}
+
+img {
+    display: block;
 }
 
 .container {
@@ -470,7 +473,7 @@ p {
 }
 
 
-/* ====================Why choose section===================  */
+/* ==================== Why choose section start here ===================  */
 #why_choose {
     padding: 120px 0;
 }
@@ -533,3 +536,188 @@ p {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
+/* ==================== Why choose section end here ===================  */
+
+/* ===== pricing section css start here ===== */
+#pricing {
+    padding: 120px 0;
+}
+
+#pricing .section_name p {
+    color: #3661FC;
+    font-family: var(--DmSans);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#pricing .section_heading h2 {
+    padding-bottom: 46px;
+    color: #1A1A1A;
+    font-family: var(--Nunito);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.pricing_card_item {
+    width: 464px;
+    height: 606px;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+}
+
+.pricing_card_item .pricing_card_bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.pricing_card_item .pricing_card_bg img {
+    width: 100%;
+    height: 100%;
+}
+
+.pricing_card_corner_shape {
+    width: 225px;
+    height: 170px;
+    border-radius: 0 60px 0 0;
+    background-color: #3661FC;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: -111;
+    transition: var(--transition);
+}
+
+.pricing_card_item_icon {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+
+.pricing_content_wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 222;
+    width: 100%;
+}
+
+.pricing_heading {
+    position: relative;
+}
+
+.pricing_item::before {
+    position: absolute;
+    content: "";
+    width: 310px;
+    height: 1px;
+    background-color: #D7DFFE;
+    left: 11px;
+    bottom: -38px;
+}
+
+.pricing_heading h4 {
+    padding: 40px 0 15px 52px;
+    font-family: var(--Nunito);
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.pricing_heading .pricing_item h3 {
+    color: #3661FC;
+    font-family: var(--Nunito);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    padding-right: 13px;
+}
+
+.pricing_heading .pricing_item h3 span {
+    font-size: 20px;
+    padding: 0 7px 0 46px;
+}
+
+.pricing_heading .pricing_item p {
+    color: #6B6161;
+    font-family: var(--DmSans);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.pricing_content_wrapper .pricing_details {
+    padding: 76px 0 36px 0;
+}
+
+.pricing_details ul li {
+    color: #1A1A1A;
+    font-family: var(--DmSans);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 13px;
+}
+
+.pricing_details ul li span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pricing_details ul li span i {
+    color: #fff;
+    font-size: 12px;
+}
+
+.pricing_btn {
+    text-align: center;
+    transition: var(--transition);
+}
+
+.pricing_btn a {
+    color: #1A1A1A;
+    font-family: var(--DmSans);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 15px 134px;
+    border: 1px solid #3661FC;
+    border-radius: 500px;
+    transition: var(--transition);
+    background-color: transparent;
+}
+
+.pricing_card_item:hover .pricing_btn a {
+    background: var(--gradient);
+    color: #fff;
+    transition: var(--transition);
+    border: transparent;
+}
+
+.pricing_card_item:hover .pricing_card_corner_shape {
+    background: var(--gradient);
+    transition: var(--transition);
+}
+.pricing_details ul .pricing_item_off{
+    opacity: 0.4;
+}
+/* ===== pricing section css end here ===== */
+
+/* ===== appointment section css start here ===== */
+/* ===== appointment section css end here ===== */
