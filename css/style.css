@@ -399,9 +399,6 @@ img {
 
 .about_content .check i,
 .tab_content_bottom .check i{
-=======
-.about_content .check i {
-
     color: #fff;
     font-weight: bold;
     display: flex;
@@ -421,11 +418,6 @@ img {
 .about_content .check p,
 .tab_content_bottom .check p{
     color:  #1A1A1A;
-=======
-
-.about_content .check p {
-    color: #1A1A1A;
-
     font-family: var(--DmSans);
     padding-bottom: 6px;
     font-size: 16px;
