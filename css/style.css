@@ -77,6 +77,69 @@ img {
     padding-bottom: 27px;
 }
 
+/* ===========Common banner section============ */
+#common_banner{
+    background: #a3a3a3;
+    overflow: hidden;
+}
+#common_banner .banner_wrapper{
+    padding: 166px 0 154px;
+}
+#common_banner .banner_wrapper h2{
+    color: #FFF;
+    text-align: center;
+    font-family: var(--Nunito);
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px; 
+}
+#common_banner .banner_wrapper a{
+    color: #FFF;
+    font-family: var(--DmSans);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+}
+#common_banner .banner_wrapper p{
+    background:  linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--DmSans);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+}
+
+.circle1{
+    width: 182px;
+    height: 175px;
+    bottom: -90px;
+    left: -80px;
+    background:  linear-gradient(90deg, #0F7AEF 0.03%, #6CE3FF 100.09%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.circle2{
+    width: 182px;
+    height: 175px;
+    top: -90px;
+    right: -80px;
+    background:  linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
 /* ====================top header===================  */
 #top_header {
     height: 40px;
@@ -199,7 +262,6 @@ img {
     font-size: 12px;
 }
 
-/* .navbar .nav-link{} */
 .dropdown-toggle::after {
     display: none;
 }
@@ -334,7 +396,12 @@ img {
     padding-bottom: 120px;
 }
 
+
+.about_content .check i,
+.tab_content_bottom .check i{
+=======
 .about_content .check i {
+
     color: #fff;
     font-weight: bold;
     display: flex;
@@ -351,8 +418,14 @@ img {
     -o-border-radius: 50%;
 }
 
+.about_content .check p,
+.tab_content_bottom .check p{
+    color:  #1A1A1A;
+=======
+
 .about_content .check p {
     color: #1A1A1A;
+
     font-family: var(--DmSans);
     padding-bottom: 6px;
     font-size: 16px;
