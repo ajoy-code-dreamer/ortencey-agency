@@ -632,19 +632,6 @@ img {
     object-fit: cover;
     position: relative;
 }
-
-.pricing_card_item .pricing_card_bg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-}
-
-.pricing_card_item .pricing_card_bg img {
-    width: 100%;
-    height: 100%;
-}
-
 .pricing_card_corner_shape {
     width: 225px;
     height: 170px;
