@@ -421,8 +421,7 @@ img {
 
 .about_content .check i,
 .tab_content_bottom .check i,
-#service_details .check i,
-.tab_content_bottom .check i {
+#service_details .check i, {
     color: #fff;
     font-weight: bold;
     display: flex;
@@ -442,9 +441,6 @@ img {
 .about_content .check p,
 .tab_content_bottom .check p,
 #service_details .check p{
-    color:  #1A1A1A;
-}
-.tab_content_bottom .check p {
     color: #1A1A1A;
     font-family: var(--DmSans);
     padding-bottom: 6px;
