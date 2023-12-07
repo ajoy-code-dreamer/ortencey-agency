@@ -6,6 +6,7 @@
     --Nunito: font-family: 'Nunito', sans-serif;
     --gradient: linear-gradient(#FE651B, #FFAA52);
     --transition: all 0.3s linear;
+    --white-clr: #ffffff
 }
 
 * {
@@ -94,23 +95,26 @@ img {
 }
 
 /* ===========Common banner section============ */
-#common_banner{
+#common_banner {
     background: #a3a3a3;
     overflow: hidden;
 }
-#common_banner .banner_wrapper{
+
+#common_banner .banner_wrapper {
     padding: 166px 0 154px;
 }
-#common_banner .banner_wrapper h2{
+
+#common_banner .banner_wrapper h2 {
     color: #FFF;
     text-align: center;
     font-family: var(--Nunito);
     font-size: 46px;
     font-style: normal;
     font-weight: 700;
-    line-height: 41px; 
+    line-height: 41px;
 }
-#common_banner .banner_wrapper a{
+
+#common_banner .banner_wrapper a {
     color: #FFF;
     font-family: var(--DmSans);
     font-size: 16px;
@@ -118,8 +122,9 @@ img {
     font-weight: 400;
     line-height: 41px;
 }
-#common_banner .banner_wrapper p{
-    background:  linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
+
+#common_banner .banner_wrapper p {
+    background: linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -130,24 +135,25 @@ img {
     line-height: 41px;
 }
 
-.circle1{
+.circle1 {
     width: 182px;
     height: 175px;
     bottom: -90px;
     left: -80px;
-    background:  linear-gradient(90deg, #0F7AEF 0.03%, #6CE3FF 100.09%);
+    background: linear-gradient(90deg, #0F7AEF 0.03%, #6CE3FF 100.09%);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.circle2{
+
+.circle2 {
     width: 182px;
     height: 175px;
     top: -90px;
     right: -80px;
-    background:  linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
+    background: linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -415,7 +421,8 @@ img {
 
 .about_content .check i,
 .tab_content_bottom .check i,
-#service_details .check i{
+#service_details .check i,
+.tab_content_bottom .check i {
     color: #fff;
     font-weight: bold;
     display: flex;
@@ -436,6 +443,9 @@ img {
 .tab_content_bottom .check p,
 #service_details .check p{
     color:  #1A1A1A;
+}
+.tab_content_bottom .check p {
+    color: #1A1A1A;
     font-family: var(--DmSans);
     padding-bottom: 6px;
     font-size: 16px;
@@ -651,18 +661,6 @@ img {
     position: relative;
 }
 
-.pricing_card_item .pricing_card_bg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-}
-
-.pricing_card_item .pricing_card_bg img {
-    width: 100%;
-    height: 100%;
-}
-
 .pricing_card_corner_shape {
     width: 225px;
     height: 170px;
@@ -797,10 +795,169 @@ img {
     background: var(--gradient);
     transition: var(--transition);
 }
-.pricing_details ul .pricing_item_off{
+
+.pricing_details ul .pricing_item_off {
     opacity: 0.4;
 }
+
 /* ===== pricing section css end here ===== */
 
+/* ===== counter section css start here ===== */
+#counter .counter_wrapper {
+    width: 1064px;
+    margin: 0 auto;
+    padding: 51px 60px;
+    background: var(--gradient);
+    border-radius: 500px;
+    border: 20px solid var(--white-clr);
+    text-transform: capitalize;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.counter_item_wrapper {
+    display: flex;
+    column-gap: 28px;
+}
+
+.counter_item_logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--white-clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter_item_content h3 {
+    color: var(--white-clr);
+    font-family: var(--Nunito);
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 36px;
+    padding-bottom: 15px;
+}
+
+.counter_item_content p {
+    color: var(--white-clr);
+    font-family: var(--DmSans);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+/* ===== counter section css end here ===== */
 /* ===== appointment section css start here ===== */
+#appointment {
+    padding: 91px 0 120px 0;
+}
+
+.appointment_section_wrapper {
+    padding: 186px 80px 80px 80px;
+    border-radius: 50px;
+}
+
+.appointment_video_part {
+    width: 592px;
+    height: 566px;
+    border-radius: 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appointment_play_icon {
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-clr);
+}
+
+.appointment_play_icon a {
+    font-size: 20px;
+}
+
+.appointment_form_content {
+    color: var(--white-clr);
+    padding-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.appointment_form_content p {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-bottom: 16px;
+    font-family: var(--DmSans);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.appointment_form_content p .appointment_logo {
+    width: 23px;
+    height: 23px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.appointment_form_content h4 {
+    font-family: var(--Nunito);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+
+}
+
+.appointment_form_wrapper .form_group {
+    column-gap: 20px;
+}
+
+.appointment_form_wrapper input,
+.appointment_form_wrapper textarea {
+    border-radius: 500px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    height: 56px;
+    padding: 26px;
+}
+
+.appointment_form_wrapper input::placeholder,
+.appointment_form_wrapper textarea::placeholder {
+    color: #9A9A9A;
+    font-family: var(--DmSans);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.appointment_form_wrapper textarea {
+    border-radius: 40px;
+    resize: none;
+    height: 171px;
+    padding-top: 15px;
+}
+
+.appointment_btn {
+    color: var(--white-clr);
+    font-family: var(--DmSans);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    background: var(--gradient);
+    padding: 15px 33px;
+    border-radius: 500px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
 /* ===== appointment section css end here ===== */
