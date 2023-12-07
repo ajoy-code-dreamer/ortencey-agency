@@ -1,0 +1,88 @@
+#portfolio{
+    padding: 120px 0;
+}
+#portfolio .section_header h6{
+    background:  linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section_header h3{
+    padding-bottom: 47px;
+}
+.portfolio_item{
+    height: 462px;
+    width: 464px;
+    background: #F4F4F4;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.portfolio_item .portfolio_image{
+   height: 462px;
+   width: 464px;
+   background: #cccccc;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+.portfolio_item .portfolio_image img{
+    height: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portfolio_link{
+    padding: 31px 50px 28px;
+}
+.portfolio_link .link_name a{
+    color: #1A1A1A;
+    font-family: var(--DmSans);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.portfolio_link .link_name span{
+    color: #6B6161;
+    font-family: var(--DmSans);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.portfolio_link .icon{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.portfolio_item:hover .potfolio_content{
+    top: -105px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.portfolio_item:hover .portfolio_image{
+    border-radius: 10px 10px 50px 50px;
+    -webkit-border-radius: 10px 10px 50px 50px;
+    -moz-border-radius: 10px 10px 50px 50px;
+    -ms-border-radius: 10px 10px 50px 50px;
+    -o-border-radius: 10px 10px 50px 50px;
+}
+.more_project_btn{
+    margin-top: 35px;
+}
