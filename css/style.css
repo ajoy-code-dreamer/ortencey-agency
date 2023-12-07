@@ -421,7 +421,7 @@ img {
 
 .about_content .check i,
 .tab_content_bottom .check i,
-#service_details .check i, {
+#service_details .check i {
     color: #fff;
     font-weight: bold;
     display: flex;
