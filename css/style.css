@@ -1,19 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
+/* ===== import another css file ===== */
 @import url(./portfolio.css);
+@import url(./pricing_details.css);
 
 @import url(./pricing.css);
 @import url(./about.css);
 @import url(./service.css);
 @import url(./faq.css);
 
+/* ===== import another css file ===== */
+
+
 
 :root {
+    /* === font-family ===; */
     --DmSans: font-family: 'DM Sans', sans-serif;
     --Nunito: font-family: 'Nunito', sans-serif;
+    /* === font-family ===; */
+    /* === colors === */
     --gradient: linear-gradient(to right,#FE651B, #FFAA52);
+    --black-clr:#1A1A1A;
+    --pera-text-clr: #6b6161;
+    --white-clr: #ffffff;
+    --off-white-clr:#F4F4FF;
+    --temporary-bg-clr:#ccc;
+    /* === colors === */
     --transition: all 0.3s linear;
-    --white-clr: #ffffff
+
 }
 
 * {

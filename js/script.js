@@ -1,15 +1,10 @@
-
-
 // ===== jQuery operation =====
-$(function(){
+$(function () {
     // === counter up ===
-    $('.counter').counterUp({
+    $(".counter").counterUp({
         delay: 10,
-        time: 1000
+        time: 1000,
     });
     // === counter up ===
-
-
-
-})
+});
 // ===== jQuery operation =====
