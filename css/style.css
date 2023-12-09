@@ -3,11 +3,11 @@
 /* ===== import another css file ===== */
 @import url(./portfolio.css);
 @import url(./pricing_details.css);
-
 @import url(./pricing.css);
 @import url(./about.css);
 @import url(./service.css);
 @import url(./faq.css);
+@import url(./contact.css);
 
 /* ===== import another css file ===== */
 
