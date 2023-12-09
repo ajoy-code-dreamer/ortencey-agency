@@ -66,8 +66,9 @@
     line-height: 26px;
 }
 /* ===== portfolio_project_theory css end here ===== */
+/* ===== portfolio_project_service css start here ===== */
 #portfolio_project_service {
-    padding: 60px 0;
+    padding: 55px 0;
 }
 .portfolio_service_details ul li {
     color: var(--black-clr);
@@ -106,6 +107,10 @@
     line-height: normal;
     padding-bottom: 34px;
 }
+.portfolio_service_help_category_wrapper {
+    row-gap: 14px;
+    flex-wrap: wrap;
+}
 .portfolio_service_help_category a {
     color: var(--pera-text-clr);
     font-family: var(--DmSans);
@@ -114,24 +119,84 @@
     line-height: 26px;
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: start;
     column-gap: 11px;
 }
-.portfolio_service_help_category a span {
-    width: 17px;
-    height: 17px;
+
+.portfolio_service_help_category a span i {
+    color: #fe651b;
+    font-size: 18px;
+}
+
+/* ===== portfolio_project_service css end here ===== */
+/* ===== portfolio_project_theory_2 section start here ===== */
+.portfolio_project_theory_2_img {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    background-color: var(--temporary-bg-clr);
+}
+.portfolio_project_theory_2_img img {
+    width: 100%;
+    height: 100%;
+}
+.portfolio_project_theory_2_content {
+    padding-left: 60px;
+    padding-top: 100px;
+}
+.portfolio_project_theory_2_content p {
+    color: var(--pera-text-clr);
+    font-family: var(--DmSans);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 30px;
+}
+/* ===== portfolio_project_theory_2 section end here ===== */
+/* ===== portfolio_project_list section start here ===== */
+#portfolio_project_list {
+    padding: 120px 0;
+}
+.portfolio_project_list_heading_wrapper {
+    padding-bottom: 35px;
+}
+.portfolio_project_list_heading h3 {
+    color: var(--black-clr);
+    font-family: var(--Nunito);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.portfolio_project_list_slider_btn_wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 20px;
+}
+.portfolio_project_slider_arrow {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background: var(--gradient);
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
-.portfolio_service_help_category a span i {
-    color: #fff;
-    font-size: 12px;
+.portfolio_project_slider_arrow i {
+    font-size: 18px;
+    color: var(--white-clr);
 }
-
-
-/* ===== portfolio_project_service css start here ===== */
-
-/* ===== portfolio_project_service css end here ===== */
+.portfolio_project_img {
+    width: 464px;
+    height: 462px;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center;
+    background-color: var(--temporary-bg-clr);
+}
+/* ===== portfolio_project_list section end here ===== */
