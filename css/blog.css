@@ -104,7 +104,8 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-#blog .sidebar_item{
+#blog .sidebar_item,
+#shop .sidebar_item{
     padding: 33px 40px 40px;
     border: 1px solid #FE651B;
     border-radius: 20px;
@@ -113,7 +114,9 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
-#blog .sidebar_item h5::after{
+
+#blog .sidebar_item h5::after,
+#shop .sidebar_item h5::after{
     position: absolute;
     content: "";
     height: 2px;
@@ -122,7 +125,8 @@
     bottom: -1px;
     left: 0;
 }
-#blog .sidebar_item input{
+#blog .sidebar_item input,
+#shop .sidebar_item form input{
     box-shadow: none;
     border: none;
     background: var(--gradient);
